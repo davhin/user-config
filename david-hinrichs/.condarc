@@ -1,2 +1,3 @@
 envs_dirs:
   - /home/jovyan/.conda_envs/
+auto_activate_base: false
