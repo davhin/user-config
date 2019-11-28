@@ -10,6 +10,11 @@ export ZSH="/home/jovyan/.oh-my-zsh"
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 ZSH_THEME="ys"
 
+
+# This prevents zsh to complain about folder permission errors, needed bc. of chmod 777 of user home in prepare.sh
+ZSH_DISABLE_COMPFIX="true"
+
+
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
 # a theme from this variable instead of looking in ~/.oh-my-zsh/themes/
