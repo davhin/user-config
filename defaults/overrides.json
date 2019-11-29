@@ -4,5 +4,15 @@
   },
   "@jupyterlab/extensionmanager-extension:plugin": {
     "enabled": true
-  }
+  },
+  "codeCellConfig": {
+        "lineNumbers": true,
+        "lineWrap": "on",
+        "rulers": [80, 100]
+  },
+  "editorConfig": {
+        "lineNumbers": true,
+        "lineWrap": "on",
+        "rulers": [80, 100]
+    }
 }
